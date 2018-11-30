@@ -109,9 +109,9 @@ module Stripe
 
   @app_info = nil
 
-  @api_base = "https://api.stripe.com"
-  @connect_base = "https://connect.stripe.com"
-  @uploads_base = "https://files.stripe.com"
+  @api_base = "https://fakeapi.example.com"
+  @connect_base = "https://fakeapi-connect.example.com"
+  @uploads_base = "https://fakeapi-files.example.com"
 
   @log_level = nil
   @logger = nil
